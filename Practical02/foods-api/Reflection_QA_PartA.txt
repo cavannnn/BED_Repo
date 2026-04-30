@@ -1,0 +1,15 @@
+Reflection:
+
+Write a brief reflection (2-3 sentences) on the concepts you learned during Part A of the practical. 
+
+In this lab exercise, I have learnt how to translate CRUD operations to its relevant HTTP Methods in a coding context, and subsequently how to code the request and response actions of the methods. I have also noticed the consistent inclusion of the 4xx status error codes to inform the user should they input something incorrect. Searching why led me to find out this is a standard error handling practice under http protocol, and hence something to apply for my future work. 
+As for challenges faced, the only problem I encountered was figuring out how the HTTP Methods that require input data was supposed to eb entered in Postman, which after a bit of navigating, found that I should put a json string into the body then perform the HTTP Method for it to work.
+
+
+Answer the following questions based on your understanding:
+
+Why use POST for creating resources and PUT for updating?
+Because the POST function adds the data by the user alongside a unique identifier ID into the "foods" collection, while PUT modifies the foods in the collection found by ID with new data inputted by the user.
+
+What status code should be returned when attempting to update a non-existent resource?
+404
